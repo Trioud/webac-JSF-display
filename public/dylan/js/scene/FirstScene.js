@@ -1,7 +1,7 @@
 import Player from "../components/Player.js";
 import Pnj from "../components/Pnj.js";
 
-class Scene1 extends Phaser.Scene {
+class FirstScene extends Phaser.Scene {
   constructor() {
     super("Scene1");
     // localStorage.setItem("name", "dude");
@@ -109,4 +109,4 @@ class Scene1 extends Phaser.Scene {
   }
 }
 
-export default Scene1;
+export default FirstScene;

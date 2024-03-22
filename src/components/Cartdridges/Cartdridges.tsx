@@ -29,7 +29,8 @@ const Item: React.FC<{ item: StudentGameInfo; current?: boolean }> = ({
   );
 };
 
-const AdaptiveHeight = (slider) => {
+// Still figuring out the type of the slider
+const AdaptiveHeight = (slider: any) => {
   function updateHeight() {
     slider.container.style.height =
       slider.slides[slider.track.details.rel].offsetHeight + "px";

@@ -1,4 +1,4 @@
-import Scene1 from "./Scene/Scene1.js";
+import FirstScene from "./scene/FirstScene.js";
 import Booking from "./scene/Booking.js";
 import Google from "./scene/Google.js";
 import Netflix from "./scene/Netflix.js";
@@ -25,7 +25,7 @@ var config = {
     autoCenter: Phaser.Scale.CENTER_BOTH,
   },
   scene: [
-    Scene1,
+    FirstScene,
     Scene2,
     Scene4,
     Scene5,
