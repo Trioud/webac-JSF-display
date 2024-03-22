@@ -1,0 +1,20 @@
+{
+  "name": "alternance-quest",
+  "version": "1.0.0",
+  "description": "Incarner un personnage et trouver une alternance",
+  "author": "Tanguy Gibrat",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "build": "electron-builder",
+    "dist": "electron-builder --publish always"
+  },
+  "devDependencies": {
+    "electron": "^29.1.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "eu.epitech.alternance-quest",
+    "icon": "tanguy/assets/icon.icns"
+  }
+}
